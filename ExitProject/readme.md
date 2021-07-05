@@ -5,7 +5,8 @@
 2. Navigate to the project Folder
 3. Run run_project.bat file to run the tests.
 
-
+> ##### Github Link :
+[RedBus Github](https://github.com/prak20/Redbus_QA_Project).
 ### Folders Description
 ##### 1. Drivers
 Contains all the drivers used in the project
