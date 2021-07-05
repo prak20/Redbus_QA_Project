@@ -1,0 +1,219 @@
+2021-07-05 18:12:34,988 INFO t.baseTest [main]  ---------- About us Test ---------- 
+2021-07-05 18:12:35,001 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:12:35,025 INFO t.baseTest [main] aboutUs Test Started
+2021-07-05 18:12:48,889 INFO t.baseTest [main] user is navigated to about us page
+2021-07-05 18:12:48,889 INFO t.baseTest [main] Current url is fetched
+2021-07-05 18:12:48,899 INFO t.baseTest [main] Current url is matched with test data
+2021-07-05 18:12:53,908 INFO t.baseTest [main] About Us Test passed Successfully !
+2021-07-05 18:13:02,444 INFO t.baseTest [main]  ---------- Contact us Test ---------- 
+2021-07-05 18:13:02,444 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:13:02,445 INFO t.baseTest [main] contactUs Test Started
+2021-07-05 18:13:15,980 INFO t.baseTest [main] user is navigated to Contact Us page
+2021-07-05 18:13:15,980 INFO t.baseTest [main] Current url is fetched
+2021-07-05 18:13:16,007 INFO t.baseTest [main] Current url is matched with test data
+2021-07-05 18:13:16,007 INFO t.baseTest [main] Contact Us Test passed Successfully !
+2021-07-05 18:13:24,845 INFO t.baseTest [main]  ---------- redBusMobile Test ---------- 
+2021-07-05 18:13:24,845 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:13:24,846 INFO t.baseTest [main] redBusMobile Test Started
+2021-07-05 18:13:38,500 INFO t.baseTest [main] user is navigated to redBus Mobile page
+2021-07-05 18:13:38,500 INFO t.baseTest [main] Current url is fetched
+2021-07-05 18:13:38,510 INFO t.baseTest [main] Current url is matched with test data
+2021-07-05 18:13:38,510 INFO t.baseTest [main] redBusMobile Test passed Successfully !
+2021-07-05 18:13:47,112 INFO t.baseTest [main]  ---------- siteMap Test ---------- 
+2021-07-05 18:13:47,113 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:13:47,113 INFO t.baseTest [main] siteMap Test Started
+2021-07-05 18:14:00,949 INFO t.baseTest [main] user is navigated to Site Maps page
+2021-07-05 18:14:00,949 INFO t.baseTest [main] Current url is fetched
+2021-07-05 18:14:00,967 INFO t.baseTest [main] Current url is matched with test data
+2021-07-05 18:14:00,967 INFO t.baseTest [main] SiteMap Test passed Successfully !
+2021-07-05 18:14:07,575 INFO t.baseTest [main]  ---------- offers Test ---------- 
+2021-07-05 18:14:07,575 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:14:07,577 INFO t.baseTest [main] offers Test Started
+2021-07-05 18:14:21,101 INFO t.baseTest [main] user is navigated to Offers page
+2021-07-05 18:14:21,101 INFO t.baseTest [main] Current url is fetched
+2021-07-05 18:14:21,112 INFO t.baseTest [main] Current url is matched with test data
+2021-07-05 18:14:21,112 INFO t.baseTest [main] Offers Page Test passed Successfully !
+2021-07-05 18:14:30,169 INFO t.baseTest [main]  ---------- Careers Test ---------- 
+2021-07-05 18:14:30,170 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:14:30,170 INFO t.baseTest [main] careers Test Started
+2021-07-05 18:14:43,473 INFO t.baseTest [main] user is navigated to Careers page
+2021-07-05 18:14:43,473 INFO t.baseTest [main] Current url is fetched
+2021-07-05 18:14:43,483 INFO t.baseTest [main] Current url is matched with test data
+2021-07-05 18:14:43,483 INFO t.baseTest [main] Careers Page Test passed Successfully !
+2021-07-05 18:14:52,689 INFO t.baseTest [main]  ---------- values Test ---------- 
+2021-07-05 18:14:52,689 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:14:52,691 INFO t.baseTest [main] values Test Started
+2021-07-05 18:15:06,341 INFO t.baseTest [main] user is navigated to Values page
+2021-07-05 18:15:06,341 INFO t.baseTest [main] Current url is fetched
+2021-07-05 18:15:06,347 INFO t.baseTest [main] current url is matched with test data
+2021-07-05 18:15:06,347 INFO t.baseTest [main] values Page Test passed Successfully !
+2021-07-05 18:15:11,081 INFO t.baseTest [main]  ---------- busHireSiteFunctionality Test ---------- 
+2021-07-05 18:15:11,082 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:15:11,083 INFO t.baseTest [main] bus hire Test Started
+2021-07-05 18:15:11,090 INFO t.baseTest [main] User clicks on Bus Hire link on HomePage
+2021-07-05 18:15:26,512 INFO t.baseTest [main] Current url is fetched
+2021-07-05 18:15:26,529 INFO t.baseTest [main] Current url is matched with test data
+2021-07-05 18:15:26,529 INFO t.baseTest [main] busHireSiteFunctionality Test passed Successfully !
+2021-07-05 18:15:32,771 INFO t.baseTest [main]  ---------- myTripFunctionality Test ---------- 
+2021-07-05 18:15:32,771 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:15:32,772 INFO t.baseTest [main] My Trips Test Started
+2021-07-05 18:15:32,773 INFO t.baseTest [main] User clicks on Bus Hire link on HomePage
+2021-07-05 18:15:47,002 INFO t.baseTest [main] User clicks on My Trips Link on Bus Hire Page
+2021-07-05 18:15:55,457 INFO t.baseTest [main] Current url is fetched
+2021-07-05 18:15:55,471 INFO t.baseTest [main] Current url is matched with test data
+2021-07-05 18:15:55,472 INFO t.baseTest [main] myTripFunctionality Test passed Successfully !
+2021-07-05 18:16:00,065 INFO t.baseTest [main]  ---------- myCancellations Test ---------- 
+2021-07-05 18:16:00,066 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:16:00,066 INFO t.baseTest [main] My Cancellaton Test Started
+2021-07-05 18:16:00,068 INFO t.baseTest [main] User clicks on Bus Hire link on HomePage
+2021-07-05 18:16:14,177 INFO t.baseTest [main] User clicks on My Cancellation Link on Bus Hire Page
+2021-07-05 18:16:22,615 INFO t.baseTest [main] Current url is fetched
+2021-07-05 18:16:22,623 INFO t.baseTest [main] Current url is matched with test data
+2021-07-05 18:16:22,623 INFO t.baseTest [main] myTripFunctionality Test passed Successfully !
+2021-07-05 18:16:26,801 INFO t.baseTest [main]  ---------- checkOffers Test ---------- 
+2021-07-05 18:16:26,802 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:16:26,802 INFO t.baseTest [main] Check Offers Test Started
+2021-07-05 18:16:26,803 INFO t.baseTest [main] User clicks on Bus Hire link on HomePage
+2021-07-05 18:16:39,479 INFO t.baseTest [main] Checks if offers are visible on Bus Hire Page
+2021-07-05 18:16:39,541 INFO t.baseTest [main] User clicks on Get more Offers Link on Bus Hire Page
+2021-07-05 18:16:48,099 INFO t.baseTest [main] Current url is fetched
+2021-07-05 18:16:48,108 INFO t.baseTest [main] Current url is matched with test data
+2021-07-05 18:16:48,108 INFO t.baseTest [main] myTripFunctionality Test passed Successfully !
+2021-07-05 18:16:52,603 INFO t.baseTest [main]  ---------- redBusCares Test ---------- 
+2021-07-05 18:16:52,604 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:16:52,605 INFO t.baseTest [main] redBus Cares Test Started
+2021-07-05 18:16:52,619 INFO t.baseTest [main] User clicks on Redbus Cares Banner
+2021-07-05 18:17:01,604 INFO t.baseTest [main] Current Title is fetched
+2021-07-05 18:17:01,612 INFO t.baseTest [main] Current Title is matched with test data
+2021-07-05 18:17:01,612 INFO t.baseTest [main] User enters some donation amount
+2021-07-05 18:17:05,901 INFO t.baseTest [main] Check if the input amount is correct while paying the amount
+2021-07-05 18:17:05,902 INFO t.baseTest [main] redBusCares Test passed Successfully !
+2021-07-05 18:17:11,767 INFO t.baseTest [main]  ---------- checkHelpOption Test ---------- 
+2021-07-05 18:17:11,767 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:17:11,768 INFO t.baseTest [main] Help Option Test Started
+2021-07-05 18:17:11,769 INFO t.baseTest [main] User clicks on help Option
+2021-07-05 18:17:20,678 INFO t.baseTest [main] Current Title is fetched
+2021-07-05 18:17:20,706 INFO t.baseTest [main] Current Title is matched with test data
+2021-07-05 18:17:20,707 INFO t.baseTest [main] checkHelpOption Test passed Successfully !
+2021-07-05 18:17:26,016 INFO t.baseTest [main]  ---------- checkCancelTicket Test ---------- 
+2021-07-05 18:17:26,016 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:17:26,017 INFO t.baseTest [main] Cancel Ticket Test Started
+2021-07-05 18:17:26,018 INFO t.baseTest [main] User clicks on manage Bookings
+2021-07-05 18:17:27,650 INFO t.baseTest [main] User clicks on cancel Ticket link
+2021-07-05 18:17:33,383 INFO t.baseTest [main] Current Title is fetched
+2021-07-05 18:17:33,403 INFO t.baseTest [main] Current Title is matched with test data
+2021-07-05 18:17:33,403 INFO t.baseTest [main] checkCancelTicket Test passed Successfully !
+2021-07-05 18:17:39,055 INFO t.baseTest [main]  ---------- checkRescheduleTicket Test ---------- 
+2021-07-05 18:17:39,055 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:17:39,056 INFO t.baseTest [main] Reschedule Ticket Test Started
+2021-07-05 18:17:39,057 INFO t.baseTest [main] User clicks on manage Bookings
+2021-07-05 18:17:40,728 INFO t.baseTest [main] User clicks on change Ticket link
+2021-07-05 18:17:46,333 INFO t.baseTest [main] Current url is fetched
+2021-07-05 18:17:46,360 INFO t.baseTest [main] Current url is matched with test data
+2021-07-05 18:17:46,360 INFO t.baseTest [main] checkRescheduleTicket Test passed Successfully !
+2021-07-05 18:17:51,513 INFO t.baseTest [main]  ---------- checkShowTicket Test ---------- 
+2021-07-05 18:17:51,513 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:17:51,514 INFO t.baseTest [main] Print Ticket Test Started
+2021-07-05 18:17:51,515 INFO t.baseTest [main] User clicks on manage Bookings
+2021-07-05 18:17:53,043 INFO t.baseTest [main] User clicks on print Ticket link
+2021-07-05 18:17:58,609 INFO t.baseTest [main] Current url is fetched
+2021-07-05 18:17:58,618 INFO t.baseTest [main] Current url is matched with test data
+2021-07-05 18:17:58,618 INFO t.baseTest [main] checkShowTicket Test passed Successfully !
+2021-07-05 18:18:03,475 INFO t.baseTest [main]  ---------- checkMailSMSTicket Test ---------- 
+2021-07-05 18:18:03,475 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:18:03,475 INFO t.baseTest [main] Mail / SMS Ticket Test Started
+2021-07-05 18:18:03,476 INFO t.baseTest [main] User clicks on manage Bookings
+2021-07-05 18:18:04,865 INFO t.baseTest [main] User clicks on Mail/SMS Ticket link
+2021-07-05 18:18:10,391 INFO t.baseTest [main] Current url is fetched
+2021-07-05 18:18:10,404 INFO t.baseTest [main] Current url is matched with test data
+2021-07-05 18:18:10,404 INFO t.baseTest [main] checkMailSMSTicket Test passed Successfully !
+2021-07-05 18:18:15,716 INFO t.baseTest [main]  ---------- validLogin Test ---------- 
+2021-07-05 18:18:15,716 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:18:15,717 INFO t.baseTest [main] validLogin Test Started
+2021-07-05 18:18:15,730 INFO t.baseTest [main] User enters gmail Id and Password
+2021-07-05 18:18:39,078 INFO t.baseTest [main] User gets logged in !
+2021-07-05 18:18:39,079 INFO t.baseTest [main] Current Title is fetched
+2021-07-05 18:18:39,093 INFO t.baseTest [main] Current Title is matched with test data
+2021-07-05 18:18:39,094 INFO t.baseTest [main] validLogin Test passed Successfully !
+2021-07-05 18:18:44,362 INFO t.baseTest [main]  ---------- invalidLoginWithInvalidEmail Test ---------- 
+2021-07-05 18:18:44,363 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:18:44,363 INFO t.baseTest [main] invalidLogin Test Started
+2021-07-05 18:18:44,365 INFO t.baseTest [main] User enters invalid gmail Id 
+2021-07-05 18:19:02,066 INFO t.baseTest [main] User is unable to login !
+2021-07-05 18:19:02,067 INFO t.baseTest [main] Current Title is fetched
+2021-07-05 18:19:02,083 INFO t.baseTest [main] Current Title is matched with test data
+2021-07-05 18:19:02,084 INFO t.baseTest [main] invalidLoginWithInvalidEmail Test passed Successfully !
+2021-07-05 18:19:09,904 INFO t.baseTest [main]  ---------- invalidLoginWithInvalidPassword Test ---------- 
+2021-07-05 18:19:09,904 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:19:09,904 INFO t.baseTest [main] invalidLogin Test Started
+2021-07-05 18:19:09,906 INFO t.baseTest [main] User enters gmail Id and Invalid Password
+2021-07-05 18:19:32,484 INFO t.baseTest [main] User is unable to login !
+2021-07-05 18:19:32,484 INFO t.baseTest [main] Current Title is fetched
+2021-07-05 18:19:32,496 INFO t.baseTest [main] Current Title is matched with test data
+2021-07-05 18:19:32,497 INFO t.baseTest [main] invalidLoginWithInvalidPassword Test passed Successfully !
+2021-07-05 18:19:40,344 INFO t.baseTest [main]  ---------- myTripTest Test ---------- 
+2021-07-05 18:19:40,345 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:19:40,345 INFO t.baseTest [main] myTripTest Test Started
+2021-07-05 18:19:40,347 INFO t.baseTest [main] User enters gmail Id and Password
+2021-07-05 18:20:03,127 INFO t.baseTest [main] User clicks on my trips link 
+2021-07-05 18:20:06,635 INFO t.baseTest [main] User is navigated to my Trips page
+2021-07-05 18:20:06,636 INFO t.baseTest [main] Current Title is matched with test data
+2021-07-05 18:20:06,645 INFO t.baseTest [main] Current Url is matched with test data
+2021-07-05 18:20:06,649 INFO t.baseTest [main] myTripTest Test passed Successfully !
+2021-07-05 18:20:11,444 INFO t.baseTest [main]  ---------- walletCardBalance Test ---------- 
+2021-07-05 18:20:11,444 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:20:11,444 INFO t.baseTest [main] walletCardBalance Test Started
+2021-07-05 18:20:11,445 INFO t.baseTest [main] User enters gmail Id and Password
+2021-07-05 18:20:38,705 INFO t.baseTest [main] User clicks on Wallets/Cards link 
+2021-07-05 18:20:42,399 INFO t.baseTest [main] User is navigated to my Wallets/Cards page
+2021-07-05 18:20:42,399 INFO t.baseTest [main] Current Title is matched with test data
+2021-07-05 18:20:42,424 INFO t.baseTest [main] Current Url is matched with test data
+2021-07-05 18:20:42,429 INFO t.baseTest [main] walletCardBalance Test passed Successfully !
+2021-07-05 18:20:47,702 INFO t.baseTest [main]  ---------- walletActivity Test ---------- 
+2021-07-05 18:20:47,702 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:20:47,703 INFO t.baseTest [main] walletActivity Test Started
+2021-07-05 18:20:47,705 INFO t.baseTest [main] User enters gmail Id and Password
+2021-07-05 18:21:11,066 INFO t.baseTest [main] User clicks on Wallet History link 
+2021-07-05 18:21:14,650 INFO t.baseTest [main] User is navigated to Wallet History page
+2021-07-05 18:21:14,650 INFO t.baseTest [main] Current Title is matched with test data
+2021-07-05 18:21:14,655 INFO t.baseTest [main] Current Url is matched with test data
+2021-07-05 18:21:14,658 INFO t.baseTest [main] walletActivity Test passed Successfully !
+2021-07-05 18:21:20,647 INFO t.baseTest [main]  ---------- validSignout Test ---------- 
+2021-07-05 18:21:20,647 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:21:20,648 INFO t.baseTest [main] validSignout Test Started
+2021-07-05 18:21:20,649 INFO t.baseTest [main] User enters gmail Id and Password
+2021-07-05 18:21:44,998 INFO t.baseTest [main] User clicks on Signout link 
+2021-07-05 18:21:48,215 INFO t.baseTest [main] User is able to successfully signout
+2021-07-05 18:21:48,215 INFO t.baseTest [main] Current Title is matched with test data
+2021-07-05 18:21:48,222 INFO t.baseTest [main] Verifies if user is signed out or not
+2021-07-05 18:21:51,358 INFO t.baseTest [main] validSignout Test passed Successfully !
+2021-07-05 18:21:57,634 INFO t.baseTest [main]  ---------- validSearch Test ---------- 
+2021-07-05 18:21:57,634 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:21:57,636 INFO t.baseTest [main] validSearch Test Started
+2021-07-05 18:21:57,641 INFO t.baseTest [main] User search for particular buses with input entries
+2021-07-05 18:22:15,027 INFO t.baseTest [main] Current Title is fetched
+2021-07-05 18:22:15,036 INFO t.baseTest [main] Current Title is matched with test data
+2021-07-05 18:22:15,036 INFO t.baseTest [main] validSearch Test passed Successfully !
+2021-07-05 18:22:21,330 INFO t.baseTest [main]  ---------- invalid Search With Incorrect Destination Test ---------- 
+2021-07-05 18:22:21,331 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:22:21,332 INFO t.baseTest [main] invalidSearchWithIncorrectDestination Test Started
+2021-07-05 18:22:21,333 INFO t.baseTest [main] User search for particular buses with incorrect Destination Value
+2021-07-05 18:22:36,917 INFO t.baseTest [main] Current Title is fetched
+2021-07-05 18:22:36,932 INFO t.baseTest [main] Current Title is matched with test data
+2021-07-05 18:22:36,933 INFO t.baseTest [main] invalidSearch1 Test passed Successfully !
+2021-07-05 18:22:42,081 INFO t.baseTest [main]  ---------- invalid Search With Incorrect Source Test ---------- 
+2021-07-05 18:22:42,083 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:22:42,083 INFO t.baseTest [main] invalidSearchWithIncorrectSource Test Started
+2021-07-05 18:22:42,085 INFO t.baseTest [main] User search for particular buses with incorrect source value
+2021-07-05 18:22:57,549 INFO t.baseTest [main] Current Title is fetched
+2021-07-05 18:22:57,553 INFO t.baseTest [main] Current Title is matched with test data
+2021-07-05 18:22:57,554 INFO t.baseTest [main] invalidSearch2 Test passed Successfully !
+2021-07-05 18:23:02,086 INFO t.baseTest [main]  ---------- modify Trip Details Test ---------- 
+2021-07-05 18:23:02,086 INFO t.baseTest [main] Checking if this test is to be executed or not !
+2021-07-05 18:23:02,086 INFO t.baseTest [main] modifyTripDetails Test Started
+2021-07-05 18:23:02,087 INFO t.baseTest [main] User search for particular buses with input entries
+2021-07-05 18:23:19,439 INFO t.baseTest [main] Current Title is fetched
+2021-07-05 18:23:19,471 INFO t.baseTest [main] Current Title is matched with test data
+2021-07-05 18:23:19,472 INFO t.baseTest [main] User is navigated to search results page
+2021-07-05 18:23:19,473 INFO t.baseTest [main] User modifies the entries and checks if the details are modified
+2021-07-05 18:23:28,139 INFO t.baseTest [main] modifyTripDetails Test passed Successfully !

@@ -1,0 +1,219 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>28/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 05 18:12:23 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>669 seconds (669500 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.aboutRedbusTest.aboutUs()'><b>aboutUs</b><br>Test class: tests.aboutRedbusTest</td>
+<td></td>
+<td>18</td>
+<td>tests.aboutRedbusTest@2e6a5539</td></tr>
+<tr>
+<td title='tests.busHireTest.busHireSiteFunctionality()'><b>busHireSiteFunctionality</b><br>Test class: tests.busHireTest</td>
+<td></td>
+<td>15</td>
+<td>tests.busHireTest@3fc9504b</td></tr>
+<tr>
+<td title='tests.aboutRedbusTest.careers()'><b>careers</b><br>Test class: tests.aboutRedbusTest</td>
+<td></td>
+<td>13</td>
+<td>tests.aboutRedbusTest@2e6a5539</td></tr>
+<tr>
+<td title='tests.HomeFunctionalityTest.checkCancelTicket()'><b>checkCancelTicket</b><br>Test class: tests.HomeFunctionalityTest</td>
+<td></td>
+<td>7</td>
+<td>tests.HomeFunctionalityTest@6d025197</td></tr>
+<tr>
+<td title='tests.HomeFunctionalityTest.checkHelpOption()'><b>checkHelpOption</b><br>Test class: tests.HomeFunctionalityTest</td>
+<td></td>
+<td>8</td>
+<td>tests.HomeFunctionalityTest@6d025197</td></tr>
+<tr>
+<td title='tests.HomeFunctionalityTest.checkMailSMSTicket()'><b>checkMailSMSTicket</b><br>Test class: tests.HomeFunctionalityTest</td>
+<td></td>
+<td>6</td>
+<td>tests.HomeFunctionalityTest@6d025197</td></tr>
+<tr>
+<td title='tests.busHireTest.checkOffers()'><b>checkOffers</b><br>Test class: tests.busHireTest</td>
+<td></td>
+<td>21</td>
+<td>tests.busHireTest@3fc9504b</td></tr>
+<tr>
+<td title='tests.HomeFunctionalityTest.checkRescheduleTicket()'><b>checkRescheduleTicket</b><br>Test class: tests.HomeFunctionalityTest</td>
+<td></td>
+<td>7</td>
+<td>tests.HomeFunctionalityTest@6d025197</td></tr>
+<tr>
+<td title='tests.HomeFunctionalityTest.checkShowTicket()'><b>checkShowTicket</b><br>Test class: tests.HomeFunctionalityTest</td>
+<td></td>
+<td>7</td>
+<td>tests.HomeFunctionalityTest@6d025197</td></tr>
+<tr>
+<td title='tests.aboutRedbusTest.contactUs()'><b>contactUs</b><br>Test class: tests.aboutRedbusTest</td>
+<td></td>
+<td>13</td>
+<td>tests.aboutRedbusTest@2e6a5539</td></tr>
+<tr>
+<td title='tests.LoginTest.invalidLoginWithInvalidEmail()'><b>invalidLoginWithInvalidEmail</b><br>Test class: tests.LoginTest</td>
+<td></td>
+<td>17</td>
+<td>tests.LoginTest@27d4a09</td></tr>
+<tr>
+<td title='tests.LoginTest.invalidLoginWithInvalidPassword()'><b>invalidLoginWithInvalidPassword</b><br>Test class: tests.LoginTest</td>
+<td></td>
+<td>22</td>
+<td>tests.LoginTest@27d4a09</td></tr>
+<tr>
+<td title='tests.searchBusTicketTest.invalidSearchWithIncorrectDestination()'><b>invalidSearchWithIncorrectDestination</b><br>Test class: tests.searchBusTicketTest</td>
+<td></td>
+<td>15</td>
+<td>tests.searchBusTicketTest@7e4204e2</td></tr>
+<tr>
+<td title='tests.searchBusTicketTest.invalidSearchWithIncorrectSource()'><b>invalidSearchWithIncorrectSource</b><br>Test class: tests.searchBusTicketTest</td>
+<td></td>
+<td>15</td>
+<td>tests.searchBusTicketTest@7e4204e2</td></tr>
+<tr>
+<td title='tests.searchBusTicketTest.modifyTripDetails()'><b>modifyTripDetails</b><br>Test class: tests.searchBusTicketTest</td>
+<td></td>
+<td>26</td>
+<td>tests.searchBusTicketTest@7e4204e2</td></tr>
+<tr>
+<td title='tests.busHireTest.myCancellations()'><b>myCancellations</b><br>Test class: tests.busHireTest</td>
+<td></td>
+<td>22</td>
+<td>tests.busHireTest@3fc9504b</td></tr>
+<tr>
+<td title='tests.busHireTest.myTripFunctionality()'><b>myTripFunctionality</b><br>Test class: tests.busHireTest</td>
+<td></td>
+<td>22</td>
+<td>tests.busHireTest@3fc9504b</td></tr>
+<tr>
+<td title='tests.LoginTest.myTripTest()'><b>myTripTest</b><br>Test class: tests.LoginTest</td>
+<td></td>
+<td>26</td>
+<td>tests.LoginTest@27d4a09</td></tr>
+<tr>
+<td title='tests.aboutRedbusTest.offers()'><b>offers</b><br>Test class: tests.aboutRedbusTest</td>
+<td></td>
+<td>13</td>
+<td>tests.aboutRedbusTest@2e6a5539</td></tr>
+<tr>
+<td title='tests.HomeFunctionalityTest.redBusCaresFunctionality()'><b>redBusCaresFunctionality</b><br>Test class: tests.HomeFunctionalityTest</td>
+<td></td>
+<td>13</td>
+<td>tests.HomeFunctionalityTest@6d025197</td></tr>
+<tr>
+<td title='tests.aboutRedbusTest.redBusMobile()'><b>redBusMobile</b><br>Test class: tests.aboutRedbusTest</td>
+<td></td>
+<td>13</td>
+<td>tests.aboutRedbusTest@2e6a5539</td></tr>
+<tr>
+<td title='tests.aboutRedbusTest.siteMap()'><b>siteMap</b><br>Test class: tests.aboutRedbusTest</td>
+<td></td>
+<td>13</td>
+<td>tests.aboutRedbusTest@2e6a5539</td></tr>
+<tr>
+<td title='tests.LoginTest.validLogin()'><b>validLogin</b><br>Test class: tests.LoginTest</td>
+<td></td>
+<td>23</td>
+<td>tests.LoginTest@27d4a09</td></tr>
+<tr>
+<td title='tests.searchBusTicketTest.validSearch()'><b>validSearch</b><br>Test class: tests.searchBusTicketTest</td>
+<td></td>
+<td>17</td>
+<td>tests.searchBusTicketTest@7e4204e2</td></tr>
+<tr>
+<td title='tests.LoginTest.validSignout()'><b>validSignout</b><br>Test class: tests.LoginTest</td>
+<td></td>
+<td>30</td>
+<td>tests.LoginTest@27d4a09</td></tr>
+<tr>
+<td title='tests.aboutRedbusTest.values()'><b>values</b><br>Test class: tests.aboutRedbusTest</td>
+<td></td>
+<td>13</td>
+<td>tests.aboutRedbusTest@2e6a5539</td></tr>
+<tr>
+<td title='tests.LoginTest.walletActivity()'><b>walletActivity</b><br>Test class: tests.LoginTest</td>
+<td></td>
+<td>26</td>
+<td>tests.LoginTest@27d4a09</td></tr>
+<tr>
+<td title='tests.LoginTest.walletCardBalance()'><b>walletCardBalance</b><br>Test class: tests.LoginTest</td>
+<td></td>
+<td>30</td>
+<td>tests.LoginTest@27d4a09</td></tr>
+</table><p>
+</body>
+</html>

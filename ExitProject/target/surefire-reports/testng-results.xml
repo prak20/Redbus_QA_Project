@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="8" total="36" passed="28">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="673487" started-at="2021-07-05T17:55:19 IST" finished-at="2021-07-05T18:06:32 IST">
+    <groups>
+      <group name="bus">
+        <method signature="busHireTest.busHireSiteFunctionality()[pri:1, instance:tests.busHireTest@11f0a5a1]" name="busHireSiteFunctionality" class="tests.busHireTest"/>
+        <method signature="busHireTest.checkOffers()[pri:4, instance:tests.busHireTest@11f0a5a1]" name="checkOffers" class="tests.busHireTest"/>
+        <method signature="busHireTest.myCancellations()[pri:3, instance:tests.busHireTest@11f0a5a1]" name="myCancellations" class="tests.busHireTest"/>
+        <method signature="busHireTest.myTripFunctionality()[pri:2, instance:tests.busHireTest@11f0a5a1]" name="myTripFunctionality" class="tests.busHireTest"/>
+      </group> <!-- bus -->
+      <group name="search">
+        <method signature="searchBusTicketTest.invalidSearchWithIncorrectDestination()[pri:2, instance:tests.searchBusTicketTest@50dfbc58]" name="invalidSearchWithIncorrectDestination" class="tests.searchBusTicketTest"/>
+        <method signature="searchBusTicketTest.invalidSearchWithIncorrectSource()[pri:3, instance:tests.searchBusTicketTest@50dfbc58]" name="invalidSearchWithIncorrectSource" class="tests.searchBusTicketTest"/>
+        <method signature="searchBusTicketTest.modifyTripDetails()[pri:4, instance:tests.searchBusTicketTest@50dfbc58]" name="modifyTripDetails" class="tests.searchBusTicketTest"/>
+        <method signature="searchBusTicketTest.validSearch()[pri:1, instance:tests.searchBusTicketTest@50dfbc58]" name="validSearch" class="tests.searchBusTicketTest"/>
+      </group> <!-- search -->
+      <group name="about">
+        <method signature="aboutRedbusTest.aboutUs()[pri:1, instance:tests.aboutRedbusTest@1b45c0e]" name="aboutUs" class="tests.aboutRedbusTest"/>
+        <method signature="aboutRedbusTest.careers()[pri:6, instance:tests.aboutRedbusTest@1b45c0e]" name="careers" class="tests.aboutRedbusTest"/>
+        <method signature="aboutRedbusTest.contactUs()[pri:2, instance:tests.aboutRedbusTest@1b45c0e]" name="contactUs" class="tests.aboutRedbusTest"/>
+        <method signature="aboutRedbusTest.offers()[pri:5, instance:tests.aboutRedbusTest@1b45c0e]" name="offers" class="tests.aboutRedbusTest"/>
+        <method signature="aboutRedbusTest.redBusMobile()[pri:3, instance:tests.aboutRedbusTest@1b45c0e]" name="redBusMobile" class="tests.aboutRedbusTest"/>
+        <method signature="aboutRedbusTest.siteMap()[pri:4, instance:tests.aboutRedbusTest@1b45c0e]" name="siteMap" class="tests.aboutRedbusTest"/>
+        <method signature="aboutRedbusTest.values()[pri:7, instance:tests.aboutRedbusTest@1b45c0e]" name="values" class="tests.aboutRedbusTest"/>
+      </group> <!-- about -->
+      <group name="login">
+        <method signature="LoginTest.invalidLoginWithInvalidEmail()[pri:2, instance:tests.LoginTest@73a8da0f]" name="invalidLoginWithInvalidEmail" class="tests.LoginTest"/>
+        <method signature="LoginTest.invalidLoginWithInvalidPassword()[pri:3, instance:tests.LoginTest@73a8da0f]" name="invalidLoginWithInvalidPassword" class="tests.LoginTest"/>
+        <method signature="LoginTest.myTripTest()[pri:4, instance:tests.LoginTest@73a8da0f]" name="myTripTest" class="tests.LoginTest"/>
+        <method signature="LoginTest.validLogin()[pri:1, instance:tests.LoginTest@73a8da0f]" name="validLogin" class="tests.LoginTest"/>
+        <method signature="LoginTest.validSignout()[pri:7, instance:tests.LoginTest@73a8da0f]" name="validSignout" class="tests.LoginTest"/>
+        <method signature="LoginTest.walletActivity()[pri:6, instance:tests.LoginTest@73a8da0f]" name="walletActivity" class="tests.LoginTest"/>
+        <method signature="LoginTest.walletCardBalance()[pri:5, instance:tests.LoginTest@73a8da0f]" name="walletCardBalance" class="tests.LoginTest"/>
+      </group> <!-- login -->
+      <group name="home">
+        <method signature="HomeFunctionalityTest.checkCancelTicket()[pri:3, instance:tests.HomeFunctionalityTest@10f7f7de]" name="checkCancelTicket" class="tests.HomeFunctionalityTest"/>
+        <method signature="HomeFunctionalityTest.checkHelpOption()[pri:2, instance:tests.HomeFunctionalityTest@10f7f7de]" name="checkHelpOption" class="tests.HomeFunctionalityTest"/>
+        <method signature="HomeFunctionalityTest.checkMailSMSTicket()[pri:6, instance:tests.HomeFunctionalityTest@10f7f7de]" name="checkMailSMSTicket" class="tests.HomeFunctionalityTest"/>
+        <method signature="HomeFunctionalityTest.checkRescheduleTicket()[pri:4, instance:tests.HomeFunctionalityTest@10f7f7de]" name="checkRescheduleTicket" class="tests.HomeFunctionalityTest"/>
+        <method signature="HomeFunctionalityTest.checkShowTicket()[pri:5, instance:tests.HomeFunctionalityTest@10f7f7de]" name="checkShowTicket" class="tests.HomeFunctionalityTest"/>
+        <method signature="HomeFunctionalityTest.redBusCaresFunctionality()[pri:1, instance:tests.HomeFunctionalityTest@10f7f7de]" name="redBusCaresFunctionality" class="tests.HomeFunctionalityTest"/>
+      </group> <!-- home -->
+    </groups>
+    <test name="Test" duration-ms="673487" started-at="2021-07-05T17:55:19 IST" finished-at="2021-07-05T18:06:32 IST">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.LoginTest@73a8da0f]" name="intializeWebdriver" is-config="true" duration-ms="2103" started-at="2021-07-05T18:01:20 IST" finished-at="2021-07-05T18:01:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.LoginTest@73a8da0f]" name="openBrowser" is-config="true" duration-ms="4611" started-at="2021-07-05T18:01:22 IST" finished-at="2021-07-05T18:01:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="validLogin()[pri:1, instance:tests.LoginTest@73a8da0f]" name="validLogin" duration-ms="24739" started-at="2021-07-05T18:01:26 IST" finished-at="2021-07-05T18:01:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@73a8da0f]" name="closeBrowser" is-config="true" duration-ms="103" started-at="2021-07-05T18:01:51 IST" finished-at="2021-07-05T18:01:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@73a8da0f]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T18:01:51 IST" finished-at="2021-07-05T18:01:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=LoginTest.validLogin()[pri:1, instance:tests.LoginTest@73a8da0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.LoginTest@73a8da0f]" name="intializeWebdriver" is-config="true" duration-ms="1577" started-at="2021-07-05T18:01:51 IST" finished-at="2021-07-05T18:01:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.LoginTest@73a8da0f]" name="openBrowser" is-config="true" duration-ms="3824" started-at="2021-07-05T18:01:53 IST" finished-at="2021-07-05T18:01:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="invalidLoginWithInvalidEmail()[pri:2, instance:tests.LoginTest@73a8da0f]" name="invalidLoginWithInvalidEmail" duration-ms="17596" started-at="2021-07-05T18:01:57 IST" finished-at="2021-07-05T18:02:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginWithInvalidEmail -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@73a8da0f]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T18:02:14 IST" finished-at="2021-07-05T18:02:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLoginWithInvalidEmail status=SUCCESS method=LoginTest.invalidLoginWithInvalidEmail()[pri:2, instance:tests.LoginTest@73a8da0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@73a8da0f]" name="closeBrowser" is-config="true" duration-ms="4165" started-at="2021-07-05T18:02:14 IST" finished-at="2021-07-05T18:02:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.LoginTest@73a8da0f]" name="intializeWebdriver" is-config="true" duration-ms="1246" started-at="2021-07-05T18:02:18 IST" finished-at="2021-07-05T18:02:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.LoginTest@73a8da0f]" name="openBrowser" is-config="true" duration-ms="2983" started-at="2021-07-05T18:02:20 IST" finished-at="2021-07-05T18:02:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="invalidLoginWithInvalidPassword()[pri:3, instance:tests.LoginTest@73a8da0f]" name="invalidLoginWithInvalidPassword" duration-ms="20110" started-at="2021-07-05T18:02:23 IST" finished-at="2021-07-05T18:02:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginWithInvalidPassword -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@73a8da0f]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T18:02:43 IST" finished-at="2021-07-05T18:02:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLoginWithInvalidPassword status=SUCCESS method=LoginTest.invalidLoginWithInvalidPassword()[pri:3, instance:tests.LoginTest@73a8da0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@73a8da0f]" name="closeBrowser" is-config="true" duration-ms="4137" started-at="2021-07-05T18:02:43 IST" finished-at="2021-07-05T18:02:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.LoginTest@73a8da0f]" name="intializeWebdriver" is-config="true" duration-ms="1317" started-at="2021-07-05T18:02:47 IST" finished-at="2021-07-05T18:02:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.LoginTest@73a8da0f]" name="openBrowser" is-config="true" duration-ms="2277" started-at="2021-07-05T18:02:48 IST" finished-at="2021-07-05T18:02:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="myTripTest()[pri:4, instance:tests.LoginTest@73a8da0f]" name="myTripTest" duration-ms="27632" started-at="2021-07-05T18:02:51 IST" finished-at="2021-07-05T18:03:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTripTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@73a8da0f]" name="closeBrowser" is-config="true" duration-ms="89" started-at="2021-07-05T18:03:18 IST" finished-at="2021-07-05T18:03:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@73a8da0f]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T18:03:18 IST" finished-at="2021-07-05T18:03:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=myTripTest status=SUCCESS method=LoginTest.myTripTest()[pri:4, instance:tests.LoginTest@73a8da0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.LoginTest@73a8da0f]" name="intializeWebdriver" is-config="true" duration-ms="1297" started-at="2021-07-05T18:03:18 IST" finished-at="2021-07-05T18:03:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.LoginTest@73a8da0f]" name="openBrowser" is-config="true" duration-ms="2935" started-at="2021-07-05T18:03:20 IST" finished-at="2021-07-05T18:03:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="walletCardBalance()[pri:5, instance:tests.LoginTest@73a8da0f]" name="walletCardBalance" duration-ms="26174" started-at="2021-07-05T18:03:23 IST" finished-at="2021-07-05T18:03:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- walletCardBalance -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@73a8da0f]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T18:03:49 IST" finished-at="2021-07-05T18:03:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=walletCardBalance status=SUCCESS method=LoginTest.walletCardBalance()[pri:5, instance:tests.LoginTest@73a8da0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@73a8da0f]" name="closeBrowser" is-config="true" duration-ms="76" started-at="2021-07-05T18:03:49 IST" finished-at="2021-07-05T18:03:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.LoginTest@73a8da0f]" name="intializeWebdriver" is-config="true" duration-ms="1611" started-at="2021-07-05T18:03:49 IST" finished-at="2021-07-05T18:03:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.LoginTest@73a8da0f]" name="openBrowser" is-config="true" duration-ms="3709" started-at="2021-07-05T18:03:50 IST" finished-at="2021-07-05T18:03:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="walletActivity()[pri:6, instance:tests.LoginTest@73a8da0f]" name="walletActivity" duration-ms="26414" started-at="2021-07-05T18:03:54 IST" finished-at="2021-07-05T18:04:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- walletActivity -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@73a8da0f]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T18:04:21 IST" finished-at="2021-07-05T18:04:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=walletActivity status=SUCCESS method=LoginTest.walletActivity()[pri:6, instance:tests.LoginTest@73a8da0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@73a8da0f]" name="closeBrowser" is-config="true" duration-ms="79" started-at="2021-07-05T18:04:21 IST" finished-at="2021-07-05T18:04:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.LoginTest@73a8da0f]" name="intializeWebdriver" is-config="true" duration-ms="2327" started-at="2021-07-05T18:04:21 IST" finished-at="2021-07-05T18:04:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.LoginTest@73a8da0f]" name="openBrowser" is-config="true" duration-ms="4372" started-at="2021-07-05T18:04:23 IST" finished-at="2021-07-05T18:04:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="validSignout()[pri:7, instance:tests.LoginTest@73a8da0f]" name="validSignout" duration-ms="29326" started-at="2021-07-05T18:04:27 IST" finished-at="2021-07-05T18:04:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSignout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@73a8da0f]" name="closeBrowser" is-config="true" duration-ms="88" started-at="2021-07-05T18:04:57 IST" finished-at="2021-07-05T18:04:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@73a8da0f]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T18:04:57 IST" finished-at="2021-07-05T18:04:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validSignout status=SUCCESS method=LoginTest.validSignout()[pri:7, instance:tests.LoginTest@73a8da0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.searchBusTicketTest">
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.searchBusTicketTest@50dfbc58]" name="intializeWebdriver" is-config="true" duration-ms="1300" started-at="2021-07-05T18:04:57 IST" finished-at="2021-07-05T18:04:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.searchBusTicketTest@50dfbc58]" name="openBrowser" is-config="true" duration-ms="3164" started-at="2021-07-05T18:04:58 IST" finished-at="2021-07-05T18:05:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="validSearch()[pri:1, instance:tests.searchBusTicketTest@50dfbc58]" name="validSearch" duration-ms="17607" started-at="2021-07-05T18:05:01 IST" finished-at="2021-07-05T18:05:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSearch -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.searchBusTicketTest@50dfbc58]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T18:05:19 IST" finished-at="2021-07-05T18:05:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validSearch status=SUCCESS method=searchBusTicketTest.validSearch()[pri:1, instance:tests.searchBusTicketTest@50dfbc58] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.searchBusTicketTest@50dfbc58]" name="closeBrowser" is-config="true" duration-ms="77" started-at="2021-07-05T18:05:19 IST" finished-at="2021-07-05T18:05:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.searchBusTicketTest@50dfbc58]" name="intializeWebdriver" is-config="true" duration-ms="1459" started-at="2021-07-05T18:05:19 IST" finished-at="2021-07-05T18:05:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.searchBusTicketTest@50dfbc58]" name="openBrowser" is-config="true" duration-ms="3386" started-at="2021-07-05T18:05:20 IST" finished-at="2021-07-05T18:05:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="invalidSearchWithIncorrectDestination()[pri:2, instance:tests.searchBusTicketTest@50dfbc58]" name="invalidSearchWithIncorrectDestination" duration-ms="14983" started-at="2021-07-05T18:05:24 IST" finished-at="2021-07-05T18:05:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSearchWithIncorrectDestination -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.searchBusTicketTest@50dfbc58]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T18:05:39 IST" finished-at="2021-07-05T18:05:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidSearchWithIncorrectDestination status=SUCCESS method=searchBusTicketTest.invalidSearchWithIncorrectDestination()[pri:2, instance:tests.searchBusTicketTest@50dfbc58] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.searchBusTicketTest@50dfbc58]" name="closeBrowser" is-config="true" duration-ms="115" started-at="2021-07-05T18:05:39 IST" finished-at="2021-07-05T18:05:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.searchBusTicketTest@50dfbc58]" name="intializeWebdriver" is-config="true" duration-ms="1295" started-at="2021-07-05T18:05:39 IST" finished-at="2021-07-05T18:05:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.searchBusTicketTest@50dfbc58]" name="openBrowser" is-config="true" duration-ms="2937" started-at="2021-07-05T18:05:40 IST" finished-at="2021-07-05T18:05:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="invalidSearchWithIncorrectSource()[pri:3, instance:tests.searchBusTicketTest@50dfbc58]" name="invalidSearchWithIncorrectSource" duration-ms="15249" started-at="2021-07-05T18:05:43 IST" finished-at="2021-07-05T18:05:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSearchWithIncorrectSource -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.searchBusTicketTest@50dfbc58]" name="attachScreenshot" is-config="true" duration-ms="2" started-at="2021-07-05T18:05:58 IST" finished-at="2021-07-05T18:05:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidSearchWithIncorrectSource status=SUCCESS method=searchBusTicketTest.invalidSearchWithIncorrectSource()[pri:3, instance:tests.searchBusTicketTest@50dfbc58] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.searchBusTicketTest@50dfbc58]" name="closeBrowser" is-config="true" duration-ms="163" started-at="2021-07-05T18:05:58 IST" finished-at="2021-07-05T18:05:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.searchBusTicketTest@50dfbc58]" name="intializeWebdriver" is-config="true" duration-ms="1254" started-at="2021-07-05T18:05:58 IST" finished-at="2021-07-05T18:06:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.searchBusTicketTest@50dfbc58]" name="openBrowser" is-config="true" duration-ms="2946" started-at="2021-07-05T18:06:00 IST" finished-at="2021-07-05T18:06:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="modifyTripDetails()[pri:4, instance:tests.searchBusTicketTest@50dfbc58]" name="modifyTripDetails" duration-ms="25298" started-at="2021-07-05T18:06:03 IST" finished-at="2021-07-05T18:06:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyTripDetails -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.searchBusTicketTest@50dfbc58]" name="closeBrowser" is-config="true" duration-ms="4134" started-at="2021-07-05T18:06:28 IST" finished-at="2021-07-05T18:06:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.searchBusTicketTest@50dfbc58]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T18:06:28 IST" finished-at="2021-07-05T18:06:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=modifyTripDetails status=SUCCESS method=searchBusTicketTest.modifyTripDetails()[pri:4, instance:tests.searchBusTicketTest@50dfbc58] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+      </class> <!-- tests.searchBusTicketTest -->
+      <class name="tests.busHireTest">
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.busHireTest@11f0a5a1]" name="intializeWebdriver" is-config="true" duration-ms="1279" started-at="2021-07-05T17:58:03 IST" finished-at="2021-07-05T17:58:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.busHireTest@11f0a5a1]" name="openBrowser" is-config="true" duration-ms="2546" started-at="2021-07-05T17:58:04 IST" finished-at="2021-07-05T17:58:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="busHireSiteFunctionality()[pri:1, instance:tests.busHireTest@11f0a5a1]" name="busHireSiteFunctionality" duration-ms="12151" started-at="2021-07-05T17:58:06 IST" finished-at="2021-07-05T17:58:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- busHireSiteFunctionality -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.busHireTest@11f0a5a1]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T17:58:19 IST" finished-at="2021-07-05T17:58:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=busHireSiteFunctionality status=SUCCESS method=busHireTest.busHireSiteFunctionality()[pri:1, instance:tests.busHireTest@11f0a5a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.busHireTest@11f0a5a1]" name="closeBrowser" is-config="true" duration-ms="92" started-at="2021-07-05T17:58:19 IST" finished-at="2021-07-05T17:58:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.busHireTest@11f0a5a1]" name="intializeWebdriver" is-config="true" duration-ms="1624" started-at="2021-07-05T17:58:19 IST" finished-at="2021-07-05T17:58:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.busHireTest@11f0a5a1]" name="openBrowser" is-config="true" duration-ms="3364" started-at="2021-07-05T17:58:20 IST" finished-at="2021-07-05T17:58:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="myTripFunctionality()[pri:2, instance:tests.busHireTest@11f0a5a1]" name="myTripFunctionality" duration-ms="21100" started-at="2021-07-05T17:58:24 IST" finished-at="2021-07-05T17:58:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTripFunctionality -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.busHireTest@11f0a5a1]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T17:58:45 IST" finished-at="2021-07-05T17:58:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=myTripFunctionality status=SUCCESS method=busHireTest.myTripFunctionality()[pri:2, instance:tests.busHireTest@11f0a5a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.busHireTest@11f0a5a1]" name="closeBrowser" is-config="true" duration-ms="73" started-at="2021-07-05T17:58:45 IST" finished-at="2021-07-05T17:58:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.busHireTest@11f0a5a1]" name="intializeWebdriver" is-config="true" duration-ms="1309" started-at="2021-07-05T17:58:45 IST" finished-at="2021-07-05T17:58:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.busHireTest@11f0a5a1]" name="openBrowser" is-config="true" duration-ms="4338" started-at="2021-07-05T17:58:46 IST" finished-at="2021-07-05T17:58:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="myCancellations()[pri:3, instance:tests.busHireTest@11f0a5a1]" name="myCancellations" duration-ms="20877" started-at="2021-07-05T17:58:50 IST" finished-at="2021-07-05T17:59:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myCancellations -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.busHireTest@11f0a5a1]" name="closeBrowser" is-config="true" duration-ms="87" started-at="2021-07-05T17:59:11 IST" finished-at="2021-07-05T17:59:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.busHireTest@11f0a5a1]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T17:59:11 IST" finished-at="2021-07-05T17:59:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=myCancellations status=SUCCESS method=busHireTest.myCancellations()[pri:3, instance:tests.busHireTest@11f0a5a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.busHireTest@11f0a5a1]" name="intializeWebdriver" is-config="true" duration-ms="1300" started-at="2021-07-05T17:59:11 IST" finished-at="2021-07-05T17:59:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.busHireTest@11f0a5a1]" name="openBrowser" is-config="true" duration-ms="2626" started-at="2021-07-05T17:59:13 IST" finished-at="2021-07-05T17:59:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="checkOffers()[pri:4, instance:tests.busHireTest@11f0a5a1]" name="checkOffers" duration-ms="20813" started-at="2021-07-05T17:59:15 IST" finished-at="2021-07-05T17:59:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOffers -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.busHireTest@11f0a5a1]" name="closeBrowser" is-config="true" duration-ms="94" started-at="2021-07-05T17:59:36 IST" finished-at="2021-07-05T17:59:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.busHireTest@11f0a5a1]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T17:59:36 IST" finished-at="2021-07-05T17:59:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkOffers status=SUCCESS method=busHireTest.checkOffers()[pri:4, instance:tests.busHireTest@11f0a5a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+      </class> <!-- tests.busHireTest -->
+      <class name="tests.HomeFunctionalityTest">
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="intializeWebdriver" is-config="true" duration-ms="1664" started-at="2021-07-05T17:59:36 IST" finished-at="2021-07-05T17:59:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="openBrowser" is-config="true" duration-ms="3749" started-at="2021-07-05T17:59:38 IST" finished-at="2021-07-05T17:59:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="redBusCaresFunctionality()[pri:1, instance:tests.HomeFunctionalityTest@10f7f7de]" name="redBusCaresFunctionality" duration-ms="13108" started-at="2021-07-05T17:59:42 IST" finished-at="2021-07-05T17:59:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redBusCaresFunctionality -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T17:59:55 IST" finished-at="2021-07-05T17:59:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=redBusCaresFunctionality status=SUCCESS method=HomeFunctionalityTest.redBusCaresFunctionality()[pri:1, instance:tests.HomeFunctionalityTest@10f7f7de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="closeBrowser" is-config="true" duration-ms="99" started-at="2021-07-05T17:59:55 IST" finished-at="2021-07-05T17:59:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="intializeWebdriver" is-config="true" duration-ms="1279" started-at="2021-07-05T17:59:55 IST" finished-at="2021-07-05T17:59:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="openBrowser" is-config="true" duration-ms="3292" started-at="2021-07-05T17:59:56 IST" finished-at="2021-07-05T17:59:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="checkHelpOption()[pri:2, instance:tests.HomeFunctionalityTest@10f7f7de]" name="checkHelpOption" duration-ms="10984" started-at="2021-07-05T17:59:59 IST" finished-at="2021-07-05T18:00:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHelpOption -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T18:00:10 IST" finished-at="2021-07-05T18:00:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkHelpOption status=SUCCESS method=HomeFunctionalityTest.checkHelpOption()[pri:2, instance:tests.HomeFunctionalityTest@10f7f7de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="closeBrowser" is-config="true" duration-ms="2148" started-at="2021-07-05T18:00:10 IST" finished-at="2021-07-05T18:00:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="intializeWebdriver" is-config="true" duration-ms="2242" started-at="2021-07-05T18:00:13 IST" finished-at="2021-07-05T18:00:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="openBrowser" is-config="true" duration-ms="5293" started-at="2021-07-05T18:00:15 IST" finished-at="2021-07-05T18:00:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="checkCancelTicket()[pri:3, instance:tests.HomeFunctionalityTest@10f7f7de]" name="checkCancelTicket" duration-ms="7687" started-at="2021-07-05T18:00:20 IST" finished-at="2021-07-05T18:00:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCancelTicket -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T18:00:28 IST" finished-at="2021-07-05T18:00:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkCancelTicket status=SUCCESS method=HomeFunctionalityTest.checkCancelTicket()[pri:3, instance:tests.HomeFunctionalityTest@10f7f7de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="closeBrowser" is-config="true" duration-ms="1216" started-at="2021-07-05T18:00:28 IST" finished-at="2021-07-05T18:00:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="intializeWebdriver" is-config="true" duration-ms="1975" started-at="2021-07-05T18:00:29 IST" finished-at="2021-07-05T18:00:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="openBrowser" is-config="true" duration-ms="4915" started-at="2021-07-05T18:00:31 IST" finished-at="2021-07-05T18:00:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="checkRescheduleTicket()[pri:4, instance:tests.HomeFunctionalityTest@10f7f7de]" name="checkRescheduleTicket" duration-ms="7599" started-at="2021-07-05T18:00:36 IST" finished-at="2021-07-05T18:00:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRescheduleTicket -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T18:00:44 IST" finished-at="2021-07-05T18:00:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkRescheduleTicket status=SUCCESS method=HomeFunctionalityTest.checkRescheduleTicket()[pri:4, instance:tests.HomeFunctionalityTest@10f7f7de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="closeBrowser" is-config="true" duration-ms="1324" started-at="2021-07-05T18:00:44 IST" finished-at="2021-07-05T18:00:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="intializeWebdriver" is-config="true" duration-ms="2256" started-at="2021-07-05T18:00:45 IST" finished-at="2021-07-05T18:00:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="openBrowser" is-config="true" duration-ms="5252" started-at="2021-07-05T18:00:47 IST" finished-at="2021-07-05T18:00:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="checkShowTicket()[pri:5, instance:tests.HomeFunctionalityTest@10f7f7de]" name="checkShowTicket" duration-ms="9158" started-at="2021-07-05T18:00:52 IST" finished-at="2021-07-05T18:01:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkShowTicket -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T18:01:02 IST" finished-at="2021-07-05T18:01:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkShowTicket status=SUCCESS method=HomeFunctionalityTest.checkShowTicket()[pri:5, instance:tests.HomeFunctionalityTest@10f7f7de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="closeBrowser" is-config="true" duration-ms="202" started-at="2021-07-05T18:01:02 IST" finished-at="2021-07-05T18:01:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="intializeWebdriver" is-config="true" duration-ms="3209" started-at="2021-07-05T18:01:02 IST" finished-at="2021-07-05T18:01:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="openBrowser" is-config="true" duration-ms="5386" started-at="2021-07-05T18:01:05 IST" finished-at="2021-07-05T18:01:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="checkMailSMSTicket()[pri:6, instance:tests.HomeFunctionalityTest@10f7f7de]" name="checkMailSMSTicket" duration-ms="7703" started-at="2021-07-05T18:01:10 IST" finished-at="2021-07-05T18:01:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMailSMSTicket -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T18:01:18 IST" finished-at="2021-07-05T18:01:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkMailSMSTicket status=SUCCESS method=HomeFunctionalityTest.checkMailSMSTicket()[pri:6, instance:tests.HomeFunctionalityTest@10f7f7de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.HomeFunctionalityTest@10f7f7de]" name="closeBrowser" is-config="true" duration-ms="1745" started-at="2021-07-05T18:01:18 IST" finished-at="2021-07-05T18:01:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.HomeFunctionalityTest -->
+      <class name="tests.aboutRedbusTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="setExtent" is-config="true" duration-ms="183" started-at="2021-07-05T17:55:19 IST" finished-at="2021-07-05T17:55:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="intializeWebdriver" is-config="true" duration-ms="3178" started-at="2021-07-05T17:55:19 IST" finished-at="2021-07-05T17:55:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="openBrowser" is-config="true" duration-ms="3848" started-at="2021-07-05T17:55:22 IST" finished-at="2021-07-05T17:55:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="aboutUs()[pri:1, instance:tests.aboutRedbusTest@1b45c0e]" name="aboutUs" duration-ms="18573" started-at="2021-07-05T17:55:26 IST" finished-at="2021-07-05T17:55:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutUs -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="attachScreenshot" is-config="true" duration-ms="4" started-at="2021-07-05T17:55:45 IST" finished-at="2021-07-05T17:55:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=aboutUs status=SUCCESS method=aboutRedbusTest.aboutUs()[pri:1, instance:tests.aboutRedbusTest@1b45c0e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="closeBrowser" is-config="true" duration-ms="4139" started-at="2021-07-05T17:55:45 IST" finished-at="2021-07-05T17:55:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="intializeWebdriver" is-config="true" duration-ms="1265" started-at="2021-07-05T17:55:49 IST" finished-at="2021-07-05T17:55:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="openBrowser" is-config="true" duration-ms="2519" started-at="2021-07-05T17:55:50 IST" finished-at="2021-07-05T17:55:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="contactUs()[pri:2, instance:tests.aboutRedbusTest@1b45c0e]" name="contactUs" duration-ms="13583" started-at="2021-07-05T17:55:53 IST" finished-at="2021-07-05T17:56:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T17:56:06 IST" finished-at="2021-07-05T17:56:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contactUs status=SUCCESS method=aboutRedbusTest.contactUs()[pri:2, instance:tests.aboutRedbusTest@1b45c0e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="closeBrowser" is-config="true" duration-ms="4130" started-at="2021-07-05T17:56:06 IST" finished-at="2021-07-05T17:56:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="intializeWebdriver" is-config="true" duration-ms="1223" started-at="2021-07-05T17:56:10 IST" finished-at="2021-07-05T17:56:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="openBrowser" is-config="true" duration-ms="3412" started-at="2021-07-05T17:56:12 IST" finished-at="2021-07-05T17:56:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="redBusMobile()[pri:3, instance:tests.aboutRedbusTest@1b45c0e]" name="redBusMobile" duration-ms="13477" started-at="2021-07-05T17:56:15 IST" finished-at="2021-07-05T17:56:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redBusMobile -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T17:56:28 IST" finished-at="2021-07-05T17:56:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=redBusMobile status=SUCCESS method=aboutRedbusTest.redBusMobile()[pri:3, instance:tests.aboutRedbusTest@1b45c0e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="closeBrowser" is-config="true" duration-ms="4130" started-at="2021-07-05T17:56:28 IST" finished-at="2021-07-05T17:56:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="intializeWebdriver" is-config="true" duration-ms="1252" started-at="2021-07-05T17:56:33 IST" finished-at="2021-07-05T17:56:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="openBrowser" is-config="true" duration-ms="3768" started-at="2021-07-05T17:56:34 IST" finished-at="2021-07-05T17:56:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="siteMap()[pri:4, instance:tests.aboutRedbusTest@1b45c0e]" name="siteMap" duration-ms="13784" started-at="2021-07-05T17:56:38 IST" finished-at="2021-07-05T17:56:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siteMap -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T17:56:51 IST" finished-at="2021-07-05T17:56:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=siteMap status=SUCCESS method=aboutRedbusTest.siteMap()[pri:4, instance:tests.aboutRedbusTest@1b45c0e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="closeBrowser" is-config="true" duration-ms="4163" started-at="2021-07-05T17:56:51 IST" finished-at="2021-07-05T17:56:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="intializeWebdriver" is-config="true" duration-ms="1271" started-at="2021-07-05T17:56:56 IST" finished-at="2021-07-05T17:56:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="openBrowser" is-config="true" duration-ms="3831" started-at="2021-07-05T17:56:57 IST" finished-at="2021-07-05T17:57:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="offers()[pri:5, instance:tests.aboutRedbusTest@1b45c0e]" name="offers" duration-ms="13913" started-at="2021-07-05T17:57:01 IST" finished-at="2021-07-05T17:57:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- offers -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T17:57:15 IST" finished-at="2021-07-05T17:57:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=offers status=SUCCESS method=aboutRedbusTest.offers()[pri:5, instance:tests.aboutRedbusTest@1b45c0e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="closeBrowser" is-config="true" duration-ms="4124" started-at="2021-07-05T17:57:15 IST" finished-at="2021-07-05T17:57:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="intializeWebdriver" is-config="true" duration-ms="1272" started-at="2021-07-05T17:57:19 IST" finished-at="2021-07-05T17:57:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="openBrowser" is-config="true" duration-ms="5125" started-at="2021-07-05T17:57:20 IST" finished-at="2021-07-05T17:57:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="careers()[pri:6, instance:tests.aboutRedbusTest@1b45c0e]" name="careers" duration-ms="13413" started-at="2021-07-05T17:57:25 IST" finished-at="2021-07-05T17:57:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- careers -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T17:57:38 IST" finished-at="2021-07-05T17:57:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=careers status=SUCCESS method=aboutRedbusTest.careers()[pri:6, instance:tests.aboutRedbusTest@1b45c0e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="closeBrowser" is-config="true" duration-ms="4124" started-at="2021-07-05T17:57:38 IST" finished-at="2021-07-05T17:57:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="intializeWebdriver" is-config="true" duration-ms="1280" started-at="2021-07-05T17:57:43 IST" finished-at="2021-07-05T17:57:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="openBrowser" is-config="true" duration-ms="5206" started-at="2021-07-05T17:57:44 IST" finished-at="2021-07-05T17:57:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="values()[pri:7, instance:tests.aboutRedbusTest@1b45c0e]" name="values" duration-ms="13441" started-at="2021-07-05T17:57:49 IST" finished-at="2021-07-05T17:58:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- values -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="closeBrowser" is-config="true" duration-ms="70" started-at="2021-07-05T17:58:03 IST" finished-at="2021-07-05T17:58:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T17:58:03 IST" finished-at="2021-07-05T17:58:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=values status=SUCCESS method=aboutRedbusTest.values()[pri:7, instance:tests.aboutRedbusTest@1b45c0e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:tests.aboutRedbusTest@1b45c0e]" name="endReport" is-config="true" duration-ms="241" started-at="2021-07-05T18:06:32 IST" finished-at="2021-07-05T18:06:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- tests.aboutRedbusTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

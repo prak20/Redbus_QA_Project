@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49095" started-at="2021-07-05T21:18:09 IST" finished-at="2021-07-05T21:18:58 IST">
+    <groups>
+      <group name="search">
+        <method signature="searchBusTicketTest.validSearch()[pri:1, instance:tests.searchBusTicketTest@1bd39d3c]" name="validSearch" class="tests.searchBusTicketTest"/>
+      </group> <!-- search -->
+    </groups>
+    <test name="Default test" duration-ms="49095" started-at="2021-07-05T21:18:09 IST" finished-at="2021-07-05T21:18:58 IST">
+      <class name="tests.searchBusTicketTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:tests.searchBusTicketTest@1bd39d3c]" name="setExtent" is-config="true" duration-ms="268" started-at="2021-07-05T21:18:09 IST" finished-at="2021-07-05T21:18:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.searchBusTicketTest@1bd39d3c]" name="intializeWebdriver" is-config="true" duration-ms="5723" started-at="2021-07-05T21:18:10 IST" finished-at="2021-07-05T21:18:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.searchBusTicketTest@1bd39d3c]" name="openBrowser" is-config="true" duration-ms="16370" started-at="2021-07-05T21:18:15 IST" finished-at="2021-07-05T21:18:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="validSearch()[pri:1, instance:tests.searchBusTicketTest@1bd39d3c]" name="validSearch" duration-ms="23440" started-at="2021-07-05T21:18:32 IST" finished-at="2021-07-05T21:18:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSearch -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:tests.searchBusTicketTest@1bd39d3c]" name="attachScreenshot" is-config="true" duration-ms="22" started-at="2021-07-05T21:18:55 IST" finished-at="2021-07-05T21:18:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validSearch status=SUCCESS method=searchBusTicketTest.validSearch()[pri:1, instance:tests.searchBusTicketTest@1bd39d3c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.searchBusTicketTest@1bd39d3c]" name="closeBrowser" is-config="true" duration-ms="1142" started-at="2021-07-05T21:18:55 IST" finished-at="2021-07-05T21:18:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:tests.searchBusTicketTest@1bd39d3c]" name="endReport" is-config="true" duration-ms="2001" started-at="2021-07-05T21:18:56 IST" finished-at="2021-07-05T21:18:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- tests.searchBusTicketTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
