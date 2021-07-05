@@ -1,19 +1,19 @@
 ### _Redbus Automation Using Selenium Maven Framework_
-####To run the [RedbusAutomation](https://www.redbus.in/) Website Test Scenarios , Follow Below Steps :
+#### To run the [RedbusAutomation](https://www.redbus.in/) Website Test Scenarios , Follow Below Steps :
 
 1. Copy/Clone the project into your eclipse workspace.
 2. Navigate to the project Folder
 3. Run run_project.bat file to run the tests.
 
 
-###Folders Description
-#####1. Drivers
+### Folders Description
+##### 1. Drivers
 Contains all the drivers used in the project
-#####2. logs
+##### 2. logs
 Contains logfile.log that captures all the logs.
-#####3. Resources
+##### 3. Resources
 Contains all the resources required for project. ( Global Config File, log4j.xml File, testData File )
-#####4. Result
+##### 4. Result
 4.1. ExtentReport
 
 Contains an HTML report that is generated after the tests are executed.
@@ -26,21 +26,21 @@ Contains Screenshots of the tests that are failed.
 
 Contains logfile of the Project
 
-###Packages Description
-#####1. Pages
+### Packages Description
+##### 1. Pages
 Contains pages - AboutRedbusPage, busHirePage, homePage, loginPage, searchPage
-#####2. pageUtils
+##### 2. pageUtils
 Contains utility file that supports all the pages
-#####3. tests
+##### 3. tests
 Contains all the test files.
-#####4. utils
+#####  4. utils
 Contains common files required for the tests like ExcelReaderTest.java, RunBrowserSetup.java,  Screenshots.java and utils.java
 
-###Drivers Used
+### Drivers Used
 1. Chrome
 2. Firefox
 
-####Prerequisites
+#### Prerequisites
 1. Eclipse IDE
 2. JDK 8 installed
 3. Java and Maven Path set in Environment Variables
@@ -48,17 +48,17 @@ Contains common files required for the tests like ExcelReaderTest.java, RunBrows
 4. Docker desktop installed 
 5. Jenkins installed
 
-##Note:
-###To change Project configurations ( like browser name, url or docker mode or headless-nonheadless mode etc. )
+## Note:
+### To change Project configurations ( like browser name, url or docker mode or headless-nonheadless mode etc. )
 >  Use config.properties file.
 
-###To change and modify test data 
+### To change and modify test data 
 >use Resources/testData.xlsx file.
 
-###To choose between headless and non headless mode
+### To choose between headless and non headless mode
 >Set headLessMode to either 'true' or 'false' in the config.properties file.
-
-###To set docker mode
+ 
+### To set docker mode
 >Set dockerMode to True in config.properties file
 
 
